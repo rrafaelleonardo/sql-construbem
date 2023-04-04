@@ -226,9 +226,6 @@ create index index_sales on tb_sales (Client_ID);
 create index index_potential on tb_potential (Client_ID);
 
 
--- drop table tb_vendas;
--- drop table tb_potencial;
-
 --
 -- TB_VENDAS
 --
@@ -703,7 +700,7 @@ from temp_produto_unico;
 
 /* Exibir a Tabela com Cliente_ID, Ano, Area_Comercial, Area_Hibrida, Area_Residencial,
 Area_Industrial, Valor Potencial e Valor Vendas das vendas convertidas e vendas nao
- convertidas) */
+ convertidas */
 -- Criar View
 -- Sem formatacao
 create view vw_Potencial
